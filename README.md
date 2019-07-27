@@ -1,10 +1,2 @@
-```java
-ZoneId utcZone = ZoneId.of("UTC").normalized();
-ZonedDateTime utcTime = ZonedDateTime.of(LocalDateTime.now(Clock.systemUTC()), utcZone);
- 
-// To LocalDate by ZoneOffset
-utcTime.withZoneSameInstant(ZoneOffset.of("-07:00")).toLocalDate();
- 
-// To LocalDateTime by ZoneId
-utcTime.withZoneSameInstant(ZoneId.of("Asia/Singapore")).toLocalDateTime();
-```
+# My Gist
+Since my company blocked gist.github.com. I created this repo to store my precious
